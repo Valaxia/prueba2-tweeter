@@ -1,0 +1,191 @@
+html{
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+.row{
+	*zoom: 1;
+}
+
+body{
+
+	margin: 90px 0 0;
+    background-image: url('../images/bananas.png');
+    background-repeat: repeat;
+
+}
+
+.logo-brand{
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin: 10px 0 0;
+    width: 150px;
+}
+
+.navbar-default{
+    background-color: #8881a4;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #fff;  
+}
+
+
+
+.navbar{
+    padding-bottom: 10px;
+}
+
+
+.navbar-btn{
+    color: #fadea2;
+    border: 0px;
+    border-radius: 50px; 
+    padding: 10px 20px 10px 20px;
+    background-color: #f9dfa1;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    float: right;
+}
+
+ul.nav li {
+    display: inline-block;
+}
+
+li.navbar-btn{
+ float: right;
+}  
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+
+.texto-principal{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #8881a4;
+
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.usuario{
+    background: #fff;
+    border-radius: 5px;
+    padding: 23px;
+
+}
+
+.btn-default{
+    color: #fadea2;
+    border: 0px;
+    border-radius: 50px; 
+    padding: 10px 20px 10px 20px;
+    background-color: #f9dfa1;
+    color: #8881a4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin: 10px 30px 0 0;
+}
+
+.responsive {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    display: inline;
+}
+
+.responsive2{
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.datos-usuario{
+ float: right;
+ display: inline;
+}
+
+
+
+.board{
+ height: auto;
+ width: 100%;
+ background-color: #fff;
+ border-radius: 10px;
+ padding: 15px;
+ margin-bottom: 20px;
+}
+
+::selection {
+  background: #f9dfa1;
+}
+
+.fa-trash-alt{
+    margin-left: 25px;
+    color: #8881a4;
+    font-size: 25px;
+}
+
+
+.fa-trash-alt-out{
+    color: #f9dfa1;
+}
+
+.fa-heart{
+    font-size: 25px;
+    color: #8881a4;
+    margin: 10px;  
+}
+
+.fa-heart-red{
+    color: #f00;
+}
+
+
+
+i.output{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    color: #8881a4;
+    margin-top: 8px;
+    font-style: normal;
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+.responsive {
+    width: 60%;
+    margin-top: 15px;
+    }
+ .datos-usuario{
+    float: left;
+    padding: 20px 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 100px) {
+
+    }
+
